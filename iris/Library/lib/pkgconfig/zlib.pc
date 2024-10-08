@@ -1,0 +1,13 @@
+prefix=D:/ds-projects/Iris-Project/iris/Library
+exec_prefix=D:/ds-projects/Iris-Project/iris/Library
+libdir=D:/ds-projects/Iris-Project/iris/Library/lib
+sharedlibdir=D:/ds-projects/Iris-Project/iris/Library/lib
+includedir=D:/ds-projects/Iris-Project/iris/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
